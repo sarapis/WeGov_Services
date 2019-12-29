@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fusio-Consumer</title>
-    <base href="/developer/">
+    <base href="/api/developer/">
     <link href="dist/fusio.min.css" rel="stylesheet" media="screen">
     <script src="dist/fusio.min.js"></script>
     <script type="text/javascript">
@@ -21,8 +21,8 @@
          */
         var fusioUrl = fusioProvider.guessFusioEndpointUrl(false);
 
-        /*fusioProvider.setBaseUrl(fusioUrl);*/
-        fusioProvider.setBaseUrl('http://devinfusiotest/');
+        fusioProvider.setBaseUrl(fusioUrl);
+        /*fusioProvider.setBaseUrl('https://services.wegov.nyc/api/');*/
 
         /**
          * The documentation menu
