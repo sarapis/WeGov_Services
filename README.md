@@ -1,4 +1,4 @@
-# WeGov openreferral API
+# WeGov openreferral API and demo Application
 
 ## Environment
 
@@ -26,13 +26,13 @@ Arrange Apache virtual host - level 1 domain or subdomain, not a level 2+ folder
 
 Enter root API entry point into .env file located at _/target/folder/.env_
 
-ex: `FUSIO_URL="http://example.com/api"`
+ex: `FUSIO_URL="https://example.com/api"`
 
 
 
 .. and into env.php application file located at _/target/folder/socialServicesApp/include/env.php_
 
-ex: `define('APIENTRY', 'http://example.com');`
+ex: `define('APIENTRY', 'https://example.com/api');`
 
 
 ## API
